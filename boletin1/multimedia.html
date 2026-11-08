@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>     
+<head>
+    <h1>Ejercicio 4</h1>
+</head>
+<body>
+    <section>
+<h2>Sección 1: Marcos e Intergración Externa</h2>
+<h3>● Tarea A</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ok-plXXHlWw?si=ODd_kxsHGtTSCysb" title="Vídeo tutorial de HTML 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+
+<h3>● Tarea B</h3>
+<embed src="C:\Users\Dania\Desktop\media\apuntes.pdf" type="application/pdf" width="100%" height="500px" />
+
+<h3>● Tarea C</h3>
+<object data="https://www.wikipedia.org" type="text/html">Tu navegador no admite la visualización de este objeto incrustado.</object>
+</section>
+
+<section>
+<h2>Sección 2: Reproductores Multimedia Nativos</h2>
+<h3>● Tarea A</h3>
+<video width="640" controls poster="C:\Users\Dania\Desktop\media\portada.jpg">
+  <source src="C:\Users\Dania\Desktop\media\prueba.mp4" type="video/mp4">
+  <source src="C:\Users\Dania\Desktop\media\prueba.webm" type="video/webm">
+</video>
+
+<h3>● Tarea B</h3>
+<audio controls>
+    <source src="C:\Users\Dania\Desktop\media\pista.mp3" type="audio/mpeg">
+    <source src="C:\Users\Dania\Desktop\media\pista.mp3" type="audio/ogg">
+</section>
+
+<section>
+    <h2>Sección 3: Gráficos Vectoriales y Mapa de Bits</h2>
+<h3>● Tarea A</h3>
+<svg width="200" height="200">
+<rect x="10" y="10" width="180" height="180" fill="blue" />
+<circle cx="100" cy="100" r="80" fill="yellow" stroke="red" />
+</svg>
+<h3>● Tarea B</h3>
+<canvas id="miLienzo" width="300" height="150">
+<a>Tu navegador no soporta el elemento Canvas</a>
+<script>
+  const canvas = document.getElementById('miLienzo');
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = 'green';
+  ctx.fillRect(10, 10, 150, 80);
+  ctx.moveTo(0, 0);
+  ctx.lineTo(200, 100); 
+  ctx.stroke(); 
+</script>
+
+
+
+</section>
+</body>
+</html>
