@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+
+<form action="https://lm.ciclo.iesnervion.es/encuesta.php" method="post">
+
+<fieldset>
+    <legend>Bloque 1: Datos Académicos</legend>
+
+    <label for="Nombre y apellidos">Nombre y apellidos:</label>
+    <input type="text" id="Nombre y apellidos" name="nombre" required placeholder="Nombre"><br>
+
+    <label for="Ciclo Formativo">Ciclo Formativo:</label>
+    <select id="Ciclo Formativo" name="ciclo" required>
+        <option value="SMR" selected>DAM</option>
+        <option value="ASIR">DAW</option>
+        <option value="DAW">ASIR</option>
+    </select><br>
+<p>
+
+
+</p>
+    <legend>Bloque 2: Preferencias Técnicas</legend>
+<p></p>
+    <label for="Lenguaje principal">Lenguaje principal:</label>    
+    <input type="radio" id="Lenguaje principal" name="lenguaje" value="Java" required><label for="Java">Java</label>
+    <input type="radio" id="Lenguaje principal" name="lenguaje" value="Python" required><label for="Python">Python</label>
+    <input type="radio" id="Lenguaje principal" name="lenguaje" value="C#" required><label for="C#">C#</label>
+        <input type="radio" id="Lenguaje principal" name="lenguaje" value="JavaScript" required><label for="JavaScript">JavaScript</label>
+<br>      
+
+    <label for="Entornos de trabajo">Entornos de trabajo:</label>
+    <input type="checkbox" id="Entornos de trabajo" name="Linux" value="Linux"><label for="Linux">Linux</label>
+    <input type="checkbox" id="Entornos de trabajo" name="Windows" value="Windows"><label for="Windows">Windows</label>
+    <input type="checkbox" id="Entornos de trabajo" name="MacOS" value="MacOS"><label for="MacOS">MacOS</label>
+<br>
+
+    <label for="Experiencia previa" >Experiencia previa:</label>
+    <textarea id="Experiencia previa" name="comentarios" rows="4" cols="40" placeholder="Escribe aquí tu experiencia previa..."></textarea><br>
+    <p></p>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+
+        </fieldset>
+
+        </html>
